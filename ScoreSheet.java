@@ -12,7 +12,11 @@ public class ScoreSheet {
     }
 
     public void tally() {
-        
+        int upper = 0;
+        for (int i = 0; i < 6; i++) {
+            upper += scores[i];
+        }
+       
     }
     
     public void print() {
