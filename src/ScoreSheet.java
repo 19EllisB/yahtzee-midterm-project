@@ -12,8 +12,8 @@ public class ScoreSheet {
     }
 
     public void tally() {
-        int upper = 0;
-        int lower = 0;
+        int upper = 0; //stores upper sec. total
+        int lower = 0; //stores lower sec. total
         
         //upper tally
         for (int i = 0; i < 6; i++) { //runs through all the upper section categories
