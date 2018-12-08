@@ -2,6 +2,10 @@
 public class ScoreSheet {
     int[] scores = new int[18];
 
+    ScoreSheet() {
+        //empty for now. will expand later
+    }
+    
     public void clear() {//resets all values to default
         /*for(int i: scores) { this loop does NOT work for some reason
         i = 0;
