@@ -16,7 +16,7 @@ public class ScoreSheet {
         int lower = 0;
         
         //upper tally
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 6; i++) { //runs through all the upper section categories
             upper += scores[i];
         }
         if (upper >= 63) { //condition for upper bonus; 35 pts.
