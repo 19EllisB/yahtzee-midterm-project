@@ -14,33 +14,33 @@ public enum ScoreLabels //Names of the categories on a score sheet
 
     FOURS ("Fours"),
 
-    FIVES (""),
+    FIVES ("Fives"),
 
-    SIXES (""),
+    SIXES ("Sixes"),
 
-    UPPER_SECTION_BONUS (""),
+    UPPER_SECTION_BONUS ("Upper Section Bonus"),
 
-    UPPER_SECTION_TOTAL (""),
+    UPPER_SECTION_TOTAL ("Upper Section Total"),
 
-    THREE_OF_A_KIND (""),
+    THREE_OF_A_KIND ("3 of a Kind"),
 
-    FOUR_OF_A_KIND (""),
+    FOUR_OF_A_KIND ("4 of a Kind"),
 
-    FULL_HOUSE (""),
+    FULL_HOUSE ("Full House"),
 
-    SMALL_STRAIGHT (""),
+    SMALL_STRAIGHT ("Sm. Straight"),
 
-    LARGE_STRAIGHT (""),
+    LARGE_STRAIGHT ("Lg. Sraight"),
 
-    YAHTZEE (""),
+    YAHTZEE ("Yahtzee"),
 
-    YAHTZEE_BONUS (""),
+    YAHTZEE_BONUS ("Yahtzee Bonus"),
 
-    CHANCE (""),
+    CHANCE ("Chance"),
 
-    LOWER_SECTION_TOTAL (""),
+    LOWER_SECTION_TOTAL ("Lower Section Total"),
 
-    GRAND_TOTAL ("")
+    GRAND_TOTAL ("GRAND TOTAL")
     ;
 
     private final String name;
